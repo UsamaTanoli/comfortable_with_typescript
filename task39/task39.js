@@ -1,7 +1,7 @@
 "use strict";
-function city_country(name, country) {
-    return `${name}, ${country}`;
+function city_country(city, country) {
+    return `${city}, ${country}`;
 }
-console.log("Karachi", "Pakistan");
-console.log("Delhi", "India");
-console.log("Kabul", "Afghanistan");
+console.log(city_country("Karachi", "Pakistan"));
+console.log(city_country("Delhi", "India"));
+console.log(city_country("Kabul", "Afghanistan"));
